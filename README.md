@@ -11,4 +11,4 @@ openSUSE (Leap and Tumbleweed with GNOME/KDE)
 Red Hat Enterprise Linux (RHEL) and its derivatives (such as CentOS, Rocky Linux, and AlmaLinux)
 Manjaro (GNOME and KDE editions; minimal editions may not include it)
 
-If your distro is not included simply install networkmanager. The script itself doesnt offer networkmanager installation if not found.
+If your distro is not included, simply install "networkmanager". The script itself doesnt offer networkmanager installation if not found. To forget and re-establish login credentials, just run the script again.
