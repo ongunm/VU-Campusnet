@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if nmcli connection show "VU-Campusnet" &>/dev/null; then
+  echo "Found an existing connection named 'VU-Campusnet'. Forgetting and re-establishing login"
+  nmcli connection delete "VU-Campusnet"
+fi
+
 # Prompt for user part of VUnetID (before "@vu.nl")
 read -p "Enter your VUnetID (the part before @vu.nl): " vunetid
 
